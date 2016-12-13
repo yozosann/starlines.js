@@ -46,7 +46,7 @@
     <script>
         var canvasStarlines = document.getElementById('CanvasWithStarlines');
         var starLines = new StarLines(canvasStarlines);
-        StarLines.draw();
+        starLines.draw();
     </script>
 </body>
 </html>
