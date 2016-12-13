@@ -1,4 +1,4 @@
-﻿var starLines = function (canvasStarlines) {
+﻿var StarLines = function (canvasStarlines) {
     canvasStarlines.height = canvasStarlines.parentElement.clientHeight;   
     canvasStarlines.width = canvasStarlines.parentElement.clientWidth;
     canvasStarlines.setAttribute("style", 'position:absolute;left:0;top:0;display:block;');

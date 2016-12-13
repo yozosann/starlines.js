@@ -45,8 +45,8 @@
     <script type="text/javascript" src="../javascripts/star-lines.js"></script>
     <script>
         var canvasStarlines = document.getElementById('CanvasWithStarlines');
-        var starLines = new starLines(canvasStarlines);
-        starLines.draw();
+        var starLines = new StarLines(canvasStarlines);
+        StarLines.draw();
     </script>
 </body>
 </html>
@@ -82,7 +82,7 @@ canvas画布默认等高等宽容器，所以你把容器放在你想设置效�
 4.创建starlines对象，并传入canvas dom。
  ```javascript
     var canvasStarlines = document.getElementById('CanvasWithStarlines');
-    var starLines = new starLines(canvasStarlines);
+    var starLines = new StarLines(canvasStarlines);
 ```
 
 5.执行starLines的方法
