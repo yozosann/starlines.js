@@ -50,7 +50,7 @@
 </html>
 ```
 
-1.click 'clone or download'，下载star-lines.js
+1.click **clone or download**，下载star-lines.js
 
 2.引入文件
 ```html
