@@ -2,6 +2,8 @@
 ### With the mouse to move to produce the connection effect
 ### 粒子星空效果，随着鼠标移动会动态产生连线且线的透明度及宽度都会随着改变。示例：[demo](https://yozosann.github.io/demo/demo4.html)
 
+#### 喜欢请点star，3q
+
 #### 使用方法
 ###### HTML Template
 ```html
