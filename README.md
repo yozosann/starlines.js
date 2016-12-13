@@ -1,6 +1,6 @@
 # starlines
-With the mouse to move to produce the connection effect
-粒子星空效果，随着鼠标移动会动态产生连线且线的透明度及宽度都会随着改变。示例：[demo](https://yozosann.github.io/demo/demo4.html)
+### With the mouse to move to produce the connection effect
+### 粒子星空效果，随着鼠标移动会动态产生连线且线的透明度及宽度都会随着改变。示例：[demo](https://yozosann.github.io/demo/demo4.html)
 
 #### 使用方法
 ###### HTML Template
@@ -50,14 +50,14 @@ With the mouse to move to produce the connection effect
 </html>
 ```
 
-1. click 'clone or download'，下载star-lines.js
+1.click 'clone or download'，下载star-lines.js
 
-2. 引入文件
+2.引入文件
 ```html
     <script type="text/javascript" src="../javascripts/star-lines.js"></script>
 ```
 
-3. 创建一个canvas容器，并创建canvas，并设置你想要的canvas背景色。
+3.创建一个canvas容器，并创建canvas，并设置你想要的canvas背景色。
 ```html
 <style>
         .canvasContainer {
@@ -77,13 +77,13 @@ With the mouse to move to produce the connection effect
 **为了防止滚动条出现，canvas容器的一定要有overflow和position**，
 canvas画布默认等高等宽容器，所以你把容器放在你想设置效果的位置就好，设置容器即可。
 
-4. 创建starlines对象，并传入canvas dom。
+4.创建starlines对象，并传入canvas dom。
  ```javascript
-        var canvasStarlines = document.getElementById('CanvasWithStarlines');
-        var starLines = new starLines(canvasStarlines);
+    var canvasStarlines = document.getElementById('CanvasWithStarlines');
+    var starLines = new starLines(canvasStarlines);
 ```
 
-5. 执行starLines的方法
+5.执行starLines的方法
 ```javascript
 	starLines.setAmountCoefficient(0.0002);// 范围0~0.00038，设置画布上圆点的数量，默认0.0002；
 	starLines.setColor('white'); //范围为css支持色，设置颜色，默认白色；
