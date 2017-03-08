@@ -1,7 +1,7 @@
 # starlines
 ### With the mouse to move to produce the connection effect
 ### 基于canvas的粒子星空效果，随着鼠标移动会动态产生连线且线的透明度及宽度都会随着改变，支持IE9及以上，chrome，ff。其他未测。
-###示例：[demo](https://yozosann.github.io/demo/demo4.html)
+###示例：[demo](https://yozosann.github.io/demo/star-line.html)
 
 #### 喜欢请点star，3q
 
